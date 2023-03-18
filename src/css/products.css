@@ -74,7 +74,7 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 1.21;
-  cursor: none;
+  cursor: default;
   color: var(--primary-text-color);
 
   background: #fafafa;
