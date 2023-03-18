@@ -2,84 +2,345 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Chocolate/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>SIMPLY CHOCOLATE</title>
+    <link rel="icon" type="image/svg+xml" href="/Chocolate/assets/favicon-68402e3b.svg">
+    <link rel="icon" type="image/png" href="data:image/webp;base64,UklGRvwDAABXRUJQVlA4WAoAAAAQAAAALwAALwAAQUxQSCkBAAABgJRtb9xITEwkPEIjLAqixlBDmCCYALDP6TG3bn4e/11kRdIs54hw4LaNI2XEvX7bfkH/3xorvnw1ANnXOTZkT4X9LrviOepzI+VEzmGvgaS1ANl+v5M0oeKd8dMQEQUXXJaGbP3FO0lgPzieDP/GE8RLYBcnq3fU1wMuYUWJiLa9RpyGDvA5oAPS7lScSVoJ6OFt0PwZMIszABimHl00H89oI4l7BRKVzgJoKjxhRwmRCnMA9Emmz37yx9BgqReR37FbtQG2Qr/XnJkZsPVdhb0yE2AMe0KDvYUuHfal/TVrfhAuvRmKaaSqcSM0s5GmlQtV9TiSJo5WJxQ7SUk3mX3JDVH5FKqSoaxkaFMy1XwRTaEo2b6wy6MdPom8EvjljWjBZaR/bxEAVlA4IKwCAAAwDgCdASowADAAPok4l0elI6IhMdmcAKARCWwAsSXA1n5pfVeIDjNxARXOxacB4lPSA8wHQA9ADpAPQA6Tf9zfS7aIK0FAB7MqED1hftP7ECiiXaEKy8ZuqkewOrcvFi0/mulUt5AwCxrAk64KkB6ZzvdTp+8Joh1wAAD+/vZP1m7vPB+Z/P1XKW3Dt6LAE8drbgn94KXWk603U3TWRR2fQ2Sqi24Kgmencc+zMvFrdvQ86sxfD0o2B4mY26WR2q8+AD8vjMmdfe2B6wDxgf6JOBkITcrJ05VnBUyF9nsv6/UNU3dVY3N7FX3Ml7niEDrV5FsOBATlDy7VBiG6QP8YjUDRITd/lh//94a//vH5//3h0vL6V9dBVr88Y9wQ9A9c1yFHxLNdWdOFc1O3tk2/Glh02liU6FpzBOk3atjk+Rut60S2MC+iF3I/46PX23YS1Jf6zfCc2sdu02cCcmbbwZyZJ7rzNNJ3cwbPPODYXGyTpBExG4tq+c16BqA6uLST8sU6iIWibXwjCD9MZc/8Q/AoPefT4JMreBb5zzcxgeebyNLshL6f/Zn2B/08axxj/wEq4Q05mKreY2A/3OyKAhlaLQ2uUIklZnIrL9bScst3xN100/MeIgNMiTccsqrGewhwnNQy3aNG5++KnWb1IB8O7fd4/RH/KX5xNS/b+oQ3lWLWnfiEe9lj/T+//7yv//eAj//vDuMr7PAWYNRDX5Qf4/zfH+yJ1ob+R8kQ3D13IWo8lC9JQgpIHQPWpU10uO8Da16eHdEOmgbb//ZIIv52nJv3Np3x46e+w+TU0qgbvk5aTTrOj4v9mNh7YHJE3k/EFugZWH1gOa1l/48HFqRhi+RaMGkKjw5pH+eTf/WrWYAX+DBbBoxxt+4DQTv7JhbcGK2eVLkgAAA=">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" 
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     <script type="module" crossorigin src="/Chocolate/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/Chocolate/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/Chocolate/assets/index-456cb093.css">
   </head>
-  <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
 
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
+  <body>
+    <header>
+    <div class="container-header">
+        <div class="header">
+            <div class="logo-header">
+                <span> <span class="simply-header">SIMPLY</span> CHOCOLATE</span>
+            </div>
+            <button class="burger-btn js-open-menu"> <svg width="21" height="14" class="header-bur">
+                    <use href="../img/symbol-defs.svg#icon-burger"></use>
+                </svg></button>
+            <div class="header-desktop">
+                <nav>
+                    <ul class="nav-desktop-header">
+                        <li class="item-header"> <a href="#home">Home</a></li>
+                        <li class="item-header"> <a href="#how-made">How it&#39;s made?</a></li>
+                        <li class="item-header"> <a href="#our-products">Our products</a></li>
+                        <li class="item-header"> <a href="#top-sellers"></a>Top sellers</li>
+                        <li class="item-header"> <a href="#is-loved"></a>Chocolate is loved</li>
+                    </ul>
+                </nav>
+                <ul class="soc-desktop-header">
+                    <li class="social-link-desktop-header">
+                        <a href="http://" class="link-desktop">
+                            <svg class="icon-header icon-instagram" width="24" height="24">
+                                <use href="../img/symbol-defs.svg#icon-instagram"></use>
+                            </svg></a>
+                    </li>
+                    <li class="social-link-desktop-header">
+                        <a href="http://" class="link-desktop">
+                            <svg class="icon-header icon-twitter" width="24" height="24">
+                                <use href="../img/symbol-defs.svg#icon-twitter"></use>
+                            </svg></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-mobile js-menu-container">
+            <nav>
+                <button class="cross-btn js-close-menu">
+                    <svg class="header-x">
+                        <use href="../img/symbol-defs.svg#icon-small_x"></use>
+                    </svg>
+                </button>
+                <ul class="nav-mobile">
+                    <li class="item-header"> <a href="#home">Home</a></li>
+                    <li class="item-header"> <a href="#how-made">How it&#39;s made?</a></li>
+                    <li class="item-header"> <a href="#our-products">Our products</a></li>
+                    <li class="item-header"> <a href="#top-sellers"></a>Top sellers</li>
+                    <li class="item-header"> <a href="#is-loved"></a>Chocolate is loved</li>
+                </ul>
+            </nav>
+            <ul class="soc-net-mobile">
+                <li class="social-link">
+                    <a href="http://" class="link-header-mobile">
+                        <svg class="icon-header icon-instagram">
+                            <use href="../img/symbol-defs.svg#icon-instagram_mobile"></use>
+                        </svg></a>
+                </li>
+                <li class="social-link">
+                    <a href="http://" class="link-header-mobile">
+                        <svg class="icon-header icon-twitter">
+                            <use href="../img/symbol-defs.svg#icon-twitter_mobile"></use>
+                        </svg></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+    <main>
+      <!-- YOUR FILES  -->
+      <section id="home">
+    <div class="container-header hero">
+        <h1 class="visually-hidden">CHOCOLATE</h1>
+        <p class="hero-text">Treat yourself or a loved one to
+            our finest ingredients for a moment
+            of pure delight!</p>
+        <div class="hero-btn-tablet">
+            <ul class="hero-btn">
+                <li class="item-hero"> <button data-modal-open class="btn-hero btn-i-hero ">Buy now</button></li>
+                <li class="item-hero"> <button class="btn-hero btn-ii-hero">How it&#39;s made</button></li>
+            </ul>
+            <div class="hero-scroll">
+                <p class="hero-scroll-text">scroll down</p>
+                <button class="btn-check-hero">
+                    <svg width="16" height="16">
+                        <a href="#footer">
+                            <use href="../img/symbol-defs.svg#icon-arrow_big"></use>
+                        </a>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+      
+      
+      
+      <section class="products">
+  <div class="products-container">
+    <h2 class="products-title">
+      OUR <span class="products-title-span">PRODUCTS</span>
+    </h2>
+    <ul class="products-list">
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-1.jpg"
+          alt="chocolate_1"
+          srcset="../img/image-1.jpg 1x, ../img/image-1@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">ORANGE</h3>
+          <p class="products-text">Dark chocolate</p>
+        </div>
+        <button class="products-btn">45 UAH</button>
+      </li>
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-2.jpg"
+          alt="chocolate_2"
+          srcset="../img/image-2.jpg 1x, ../img/image-2@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">APPLE&CRANBERRY</h3>
+          <p class="products-text">Milk chocolate</p>
+        </div>
+        <button class="products-btn">50 UAH</button>
+      </li>
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-3.jpg"
+          alt="chocolate_3"
+          srcset="../img/image-3.jpg 1x, ../img/image-3@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">lime&sea salt</h3>
+          <p class="products-text">Dark chocolate</p>
+        </div>
+        <button class="products-btn">66 UAH</button>
+      </li>
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-4.jpg"
+          alt="chocolate_4"
+          srcset="../img/image-4.jpg 1x, ../img/image-4@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">pineapple</h3>
+          <p class="products-text">Dark chocolate</p>
+        </div>
+        <button class="products-btn">54 UAH</button>
+      </li>
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-5.jpg"
+          alt="chocolate_5"
+          srcset="../img/image-5.jpg 1x, ../img/image-5@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">Classic</h3>
+          <p class="products-text">Milk chocolate</p>
+        </div>
+        <button class="products-btn">45 UAH</button>
+      </li>
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-6.jpg"
+          alt="chocolate_6"
+          srcset="../img/image-6.jpg 1x, ../img/image-6@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">honey</h3>
+          <p class="products-text">Milk chocolate</p>
+        </div>
+        <button class="products-btn">50 UAH</button>
+      </li>
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-7.jpg"
+          alt="chocolate_7"
+          srcset="../img/image-7.jpg 1x, ../img/image-7@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">Roasted fruits</h3>
+          <p class="products-text">Dark chocolate</p>
+        </div>
+        <button class="products-btn">66 UAH</button>
+      </li>
+      <li class="products-item">
+        <img
+          class="products-picture"
+          src="../img/image-8.jpg"
+          alt="chocolate_8"
+          srcset="../img/image-8.jpg 1x, ../img/image-8@2x.jpg 2x"
+        />
+        <div class="products-description">
+          <h3 class="products-subtitle">Classic</h3>
+          <p class="products-text">White chocolate</p>
+        </div>
+        <button class="products-btn">54 UAH</button>
       </li>
     </ul>
-  </nav>
-</header>
+  </div>
+</section>
 
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!-- Slick -->
+<script src="../js/slick.min.js"></script>
+<!-- Script -->
+<script src="../js/slider.js"></script>
 
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/Chocolate/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
-      </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
-        </li>
-      </ul>
-    </div>
-
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/Chocolate/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
+      
+      
+      
+      <!-- MODAL WINDOWS -->
+      <section class="container backdrop-contaier">
+  <div class="backdrop" data-modal>
+    <div class="buy-now-modal">
+      <button type="button" class="buy-now-modal-close-btn" data-modal-close>
+        <svg class="buy-now-modal-close-icon" width="24" height="24">
+          <use href="../img/symbol-defs.svg#icon-x-close"></use>
+        </svg>
+      </button>
+      <p class="buy-now-modal-title"><span>buy</span> now</p>
+      <div class="buy-now-modal-wrap">
+        <form class="buy-now-modal-form">
+          <ul class="buy-now-product-list list">
+            <li class="buy-now-product-item"></li>
+            <li class="buy-now-product-item"></li>
+            <li class="buy-now-product-item"></li>
+          </ul>
+          <div class="buy-now-modal-field">
+            <label class="buy-now-input-lable">Personal information</label>
+            <div class="buy-now-input-wrap">
+              <input
+                type="text"
+                class="buy-now-modal-input"
+                name="modal-name"
+                pattern="[A-Za-z'-]{1,50}$"
+                placeholder="Name"
+              />
+              <input
+                type="text"
+                class="buy-now-modal-input input-surname"
+                name="modal-surname"
+                pattern="[A-Za-z'-]{1,50}$"
+                placeholder="Surname"
+              />
+            </div>
+          </div>
+          <div class="buy-now-modal-field">
+            <label class="buy-now-input-lable">Email</label>
+            <div class="buy-now-input-wrap">
+              <input
+                type="email"
+                class="buy-now-modal-input"
+                name="modal-email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                placeholder="Enter your email"
+              />
+            </div>
+          </div>
+          <div class="buy-now-modal-field">
+            <label class="buy-now-input-lable">Phone number</label>
+            <div class="buy-now-input-wrap">
+              <input
+                type="tel"
+                class="buy-now-modal-input"
+                name="modal-tel"
+                pattern="^\+?[0-9]{1,3}\s?[0-9]{3,4}\s?[0-9]{4,6}$"
+                placeholder="Phone number"
+              />
+            </div>
+          </div>
+          <div class="buy-now-modal-field">
+            <label class="buy-now-input-lable">Card number</label>
+            <div class="buy-now-input-wrap">
+              <input
+                type="text"
+                class="buy-now-modal-input"
+                name="modal-card"
+                pattern="^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}|(?:2131|1800|35\d{3})\d{11})$"
+                placeholder="Enter card"
+              />
+            </div>
+          </div>
+          <div class="buy-now-modal-field">
+            <label class="buy-now-input-lable" for="modal-comment"
+              >Comment</label
+            >
+            <textarea
+              class="buy-now-modal-message"
+              name="modal-comment"
+              id="modal-comment"
+              placeholder="Enter text"
+            ></textarea>
+          </div>
+          <div class="buy-now-modal-btn-wrap">
+            <button class="buy-now-modal-send-btn btn" type="submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
 
-
-    
+      
+      
+      
+      
+    </main>
+    <footer>
+      
+    </footer>
+      
+      <script src="./js/modal.js"></script>
+      <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
