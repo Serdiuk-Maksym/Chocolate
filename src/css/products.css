@@ -1,5 +1,5 @@
 .products {
-  margin-top: 128px;
+  padding-top: 128px;
   background-color: var(--bg-primary-color);
 }
 .products-container {
