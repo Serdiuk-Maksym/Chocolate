@@ -2,7 +2,10 @@
   padding: 72px 32px;
   background-color: var(--bg-primary-color);
 }
-
+.reviews-container {
+  width: 100%;
+  max-width: 1176px;
+}
 .reviews-logo {
   color: var(--secondary-text-color);
 }
